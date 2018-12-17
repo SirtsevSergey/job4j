@@ -1,25 +1,25 @@
 package ru.job4j.calculate;
 
 /**
-*Конструктор вывод строки в консоль.
-*@author sergey surtsev (artman99@yandex.ru)
-*@since 09/12/2018
-*version 1
-*/
+ *Конструктор вывод строки в консоль.
+ *@author sergey surtsev (artman99@yandex.ru)
+ *@since 09/12/2018
+ *version 1
+ */
 public class Calculate {
 	/**
-	*Main.
-	*param args - args
-	*/	
+	 *Main.
+	 *param args - args
+	 */
 	public static void main(String[] args) {
 		System.out.println("I will not use 'Hello, World!");
 	}
 	/**
-     * Method echo.
-     * @param name Your name.
-     * @return Echo plus your name.
-     */
-    public String echo(String name) {
+	 * Method echo.
+	 * @param name Your name.
+	 * @return Echo plus your name.
+	 */
+	public String echo(String name) {
 		return "Echo, echo, echo : " + name;
 	}
 }
