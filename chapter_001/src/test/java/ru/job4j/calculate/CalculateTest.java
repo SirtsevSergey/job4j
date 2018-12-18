@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Test.
  *
- * @author Sergy Surtsev (artman99@yandex.ru)
+ * @author Sergey Surtsev (artman99@yandex.ru)
  * @version $Id$
  * @since 0.1
  */
@@ -17,8 +17,8 @@ public class CalculateTest {
      */
     @Test
     public void whenTakeNameThenThreeEchoPlusName() {
-        String input = "Sergy Surtsev";
-        String expect = "Echo, echo, echo : Sergy Surtsev";
+        String input = "Sergey Surtsev";
+        String expect = "Echo, echo, echo : Sergey Surtsev";
         Calculate calc = new Calculate();
         String result = calc.echo(input);
         assertThat(result, is(expect));
