@@ -1,25 +1,24 @@
 package ru.job4j.calculate;
 
-/**
- *Конструктор вывод строки в консоль.
- *@author sergey surtsev (artman99@yandex.ru)
- *@since 09/12/2018
- *version 1
- */
 public class Calculate {
-	/**
-	 *Main.
-	 *param args - args
-	 */
-	public static void main(String[] args) {
-		System.out.println("I will not use 'Hello, World!");
+	private double result;
+	public void add(double first, double second) {
+		this.result = first+second;
 	}
-	/**
-	 * Method echo.
-	 * @param name Your name.
-	 * @return Echo plus your name.
-	 */
-	public String echo(String name) {
-		return "Echo, echo, echo : " + name;
+
+	public void substruct(double first, double second) {
+		this.result = first-second;
+	}
+
+	public void div(double first, double second) {
+		this.result = first/second;
+	}
+
+	public void multiple(double first, double second) {
+		this.result = first*second;
+	}
+
+	public double getResult() {
+		return this.result;
 	}
 }
