@@ -12,7 +12,7 @@ public class Calculate {
 	 * Method add.
 	 * @param first первый аргумент.
 	 * @param second второй аргумент.
-	 * @return результат.
+	 * result результат.
 	 */
 	public void add(double first, double second) {
 		this.result = first + second;
@@ -22,7 +22,7 @@ public class Calculate {
 	 * Method substruct.
 	 * @param first первый аргумент.
 	 * @param second второй аргумент.
-	 * @return результат.
+	 * result результат.
 	 */
 	public void substruct(double first, double second) {
 		this.result = first - second;
@@ -32,7 +32,7 @@ public class Calculate {
 	 * Method div.
 	 * @param first первый аргумент.
 	 * @param second второй аргумент.
-	 * @return результат.
+	 * result результат.
 	 */
 	public void div(double first, double second) {
 		this.result = first / second;
@@ -42,7 +42,7 @@ public class Calculate {
 	 * Method multiple.
 	 * @param first первый аргумент.
 	 * @param second второй аргумент.
-	 * @return результат.
+	 * result результат.
 	 */
 	public void multiple(double first, double second) {
 		this.result = first * second;
