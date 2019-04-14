@@ -10,7 +10,7 @@ import static org.junit.Assert.assertThat;
  *
  * @author Sergey Surtsev (artman99@yandex.ru)
  * @version 1
- * @since 27.12.2018
+ * @since 14.04.2019
  */
 
 public class ConverterTest {
