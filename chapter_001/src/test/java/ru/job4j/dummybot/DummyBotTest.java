@@ -1,4 +1,4 @@
-package ru.job4j.condition;
+package ru.job4j.dummybot;
 
 import org.junit.Test;
 import static org.hamcrest.Matchers.is;
